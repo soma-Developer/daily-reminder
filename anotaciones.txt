@@ -1,82 +1,85 @@
-Conceptos Fundamentales de JavaScript para entender el archivo en bloques segun el estudio realizado:
+Conceptos Fundamentales de JavaScript para entender el archivo en bloques según el estudio realizado:
 
 
-funamentos basicos : 
 
+Fundamentos básicos:
 
-Sintaxis Básica
-Variables (
-let, const 
-)
+Sintaxis básica
+
+Variables (let, const)
 
 Tipos de datos (strings, números, booleanos, objetos, arrays)
 
 Operadores (asignación, comparación, lógicos)
 
-Funciones
+Funciones:
 Declaración de funciones
 
-Arrow functions (
-() => {}
-)
+Arrow functions (() => {})
+
 Parámetros y argumentos
 
 Retorno de valores
 
 Programación Orientada a Objetos (POO):
-Clases y objetos;
-Constructor (parametros);
-Métodos y propiedades;
-this (contexto);
+Clases y objetos
 
-fundamentos intermedios acerca de conocimientos que tube que estudiar para entender mejor el codigo
+Constructor (parámetros)
+
+Métodos y propiedades
+
+this (contexto)
 
 
 
+
+Fundamentos intermedios para estudiar y entender mejor el código:
 
 Manejo del DOM (Document Object Model):
+Selección de elementos (document.getElementById, querySelector)
 
-Selección de elementos (document.getElementById, querySelector);
+Eventos (addEventListener)
 
-Eventos (addEventListener);
+Manipulación del DOM (innerHTML, value)
 
-Manipulación del DOM (innerHTML, value);
+Almacenamiento local:
+localStorage para guardar datos localmente
 
-Almacenamiento Local:
-localStorage para guardar datos localmente;
-JSON.stringify() y JSON.parse();
+JSON.stringify() y JSON.parse()
 
-Métodos de Arrays:
-map() --sigo si comprender del todo la sintaxis de este metodo
-filter() --sigo sin comprender del todo la sintaxis de este metodo
+Métodos de arrays:
+map() — aún no comprendo del todo la sintaxis de este método
+
+filter() — aún no comprendo del todo la sintaxis de este método
+
 push()
+
 join()
 
-Manejo de Eventos:
-addEventListener;
-Eventos como 'click', 'change';
-Template Strings:
-Uso de backticks (`) para strings multilínea;
-Interpolación de variables (${variable});
+Manejo de eventos:
+addEventListener
 
+Eventos como 'click', 'change'
 
-Conceptos Específicos del Código:
-Clases y Herencia: El código utiliza clases (
-Reminder
- y 
-ReminderManager
-)
-para que las frases tengan propiedades unicas y en comun como el texto y la prioridad
+Template strings:
+Uso de backticks (`) para strings multilínea
 
+Interpolación de variables (${variable})
 
+Conceptos específicos del código:
+Clases y herencia:
+El código utiliza clases (Reminder y ReminderManager) para que las frases tengan propiedades únicas y en común, como el texto y la prioridad.
 
-Manejo de Eventos: Hay listeners para botones y cambios en selects.
-hay que estudiar esta metodologia de manipulacion en el DOM para entender mejor el codigo
+Manejo de eventos:
+Hay listeners para botones y cambios en selects.
+Es necesario estudiar esta metodología de manipulación del DOM para entender mejor el código.
 
+Persistencia de datos:
+Uso de localStorage para guardar recordatorios.
+La persistencia de datos es importante para evitar que los recordatorios se pierdan al cerrar el navegador. Si no se guardan, el usuario tendría que reescribirlos cada vez que abra la aplicación, lo cual es ineficiente.
+— Hay que entender el concepto de persistencia de datos.
 
-Persistencia de Datos: Uso de localStorage para guardar recordatorios.
-Persistencia de datos es importante para guardar los recordatorios, ya que si no se guardan, los recordatorios se perderán cuando se cierre el navegador, lo que hace que el usuario deba volver a escribir los mismos recordatorios cada vez que se abre el navegador, lo que es ineficiente --hay que entender el concepto de persistencia de datos. 
-
-
-Renderizado Dinámico: Actualización de la interfaz de usuario basada en los datos.
-Renderizado dinámico es importante para actualizar la interfaz de usuario basada en los datos, ya que si no se actualiza, la interfaz de usuario se mantendrá igual, lo que hace que el usuario no pueda ver los cambios que se han realizado --hay que entender el concepto de renderizado dinámico.
+Renderizado dinámico:
+Actualización de la interfaz de usuario basada en los datos.
+El renderizado dinámico es importante para reflejar los cambios en la UI cuando los datos cambian. Si no se actualiza la interfaz, el usuario no podrá ver los cambios realizados.
+— Hay que entender el concepto de renderizado dinámico.

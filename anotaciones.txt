@@ -1,0 +1,82 @@
+Conceptos Fundamentales de JavaScript para entender el archivo en bloques segun el estudio realizado:
+
+
+funamentos basicos : 
+
+
+Sintaxis Básica
+Variables (
+let, const 
+)
+
+Tipos de datos (strings, números, booleanos, objetos, arrays)
+
+Operadores (asignación, comparación, lógicos)
+
+Funciones
+Declaración de funciones
+
+Arrow functions (
+() => {}
+)
+Parámetros y argumentos
+
+Retorno de valores
+
+Programación Orientada a Objetos (POO):
+Clases y objetos;
+Constructor (parametros);
+Métodos y propiedades;
+this (contexto);
+
+fundamentos intermedios acerca de conocimientos que tube que estudiar para entender mejor el codigo
+
+
+
+
+Manejo del DOM (Document Object Model):
+
+Selección de elementos (document.getElementById, querySelector);
+
+Eventos (addEventListener);
+
+Manipulación del DOM (innerHTML, value);
+
+Almacenamiento Local:
+localStorage para guardar datos localmente;
+JSON.stringify() y JSON.parse();
+
+Métodos de Arrays:
+map() --sigo si comprender del todo la sintaxis de este metodo
+filter() --sigo sin comprender del todo la sintaxis de este metodo
+push()
+join()
+
+Manejo de Eventos:
+addEventListener;
+Eventos como 'click', 'change';
+Template Strings:
+Uso de backticks (`) para strings multilínea;
+Interpolación de variables (${variable});
+
+
+Conceptos Específicos del Código:
+Clases y Herencia: El código utiliza clases (
+Reminder
+ y 
+ReminderManager
+)
+para que las frases tengan propiedades unicas y en comun como el texto y la prioridad
+
+
+
+Manejo de Eventos: Hay listeners para botones y cambios en selects.
+hay que estudiar esta metodologia de manipulacion en el DOM para entender mejor el codigo
+
+
+Persistencia de Datos: Uso de localStorage para guardar recordatorios.
+Persistencia de datos es importante para guardar los recordatorios, ya que si no se guardan, los recordatorios se perderán cuando se cierre el navegador, lo que hace que el usuario deba volver a escribir los mismos recordatorios cada vez que se abre el navegador, lo que es ineficiente --hay que entender el concepto de persistencia de datos. 
+
+
+Renderizado Dinámico: Actualización de la interfaz de usuario basada en los datos.
+Renderizado dinámico es importante para actualizar la interfaz de usuario basada en los datos, ya que si no se actualiza, la interfaz de usuario se mantendrá igual, lo que hace que el usuario no pueda ver los cambios que se han realizado --hay que entender el concepto de renderizado dinámico.
